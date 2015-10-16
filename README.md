@@ -1,5 +1,5 @@
 # python-common
-Base image used for python applications.
+Base image that I use for python applications
 
 ## Installation
 
