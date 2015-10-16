@@ -4,7 +4,7 @@ MAINTAINER Ryan Liao <pirsquare.ryan@gmail.com>
 ENV PATH="/usr/local/bin:$PATH"
 
 RUN yum -y update; \
-yum install -y zlib-devel openssl-devel sqlite-devel bzip2-devel wget tar xz xz-libs \
+yum install -y zlib-devel openssl-devel sqlite-devel bzip2-devel wget tar xz xz-libs sudo \
 gcc gcc-g++ git make libselinux-python python-argparse
 
 WORKDIR /tmp
